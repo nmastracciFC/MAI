@@ -1,0 +1,28 @@
+
+
+//VENDOR PREFIXES
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  #{$property}: $value;
+}
+//RESPOND
+@mixin large-up {
+  @media only screen and (min-width: 60em) {
+    @content;
+  }
+}
+
+@mixin medium-up {
+  @media only screen and (min-width: 40em) {
+    @content;
+  }
+}
+
+@mixin small-only {
+  @media only screen and (max-width: 40em) {
+    @content;
+  }
+}
