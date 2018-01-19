@@ -10,7 +10,7 @@ function redirect_to($location){
 
 
 function submitMessage($name, $email, $message, $direct) {
-	$to = "admin@myactiveingredient.org"; 
+	$to = "329243@hp213.hostpapa.com"; 
 	$subj = "Message from MAI Form"; 
 	$extra = "Reply-To: ".$email; 
 	$msg = "name: ".$name."\n\nEmail: ".$email."\n\nComments: ".$message;

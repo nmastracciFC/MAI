@@ -1,7 +1,7 @@
 <?php
 	$user = "myact120_admin";
 	$pass = "activateIngredients4now";
-	$url = "69.90.160.255";
+	$url = "hp213.hostpapa.com";
 	$db = "myact120_db_mai";
 	
 	
