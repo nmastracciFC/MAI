@@ -34,11 +34,12 @@
 }
 
 #email {
-	border-radius: 10px;
-	height: 30px;
+	border-radius: 2.5em;
+	padding: 1em;
+	height: 2.5em;
 	border: solid 1px #ffffff;
 	background-color: $portfolioback;
-	width: 320px;
+	width: 300px;
 	color: $maincolor;
 	display: block;
 	margin: 15px auto;
@@ -74,3 +75,6 @@
   	cursor: pointer;
 	}
 }
+// .form-mat {
+// 	padding: 1em;
+// }

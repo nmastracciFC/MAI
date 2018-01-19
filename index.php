@@ -55,6 +55,19 @@ if (isset($_POST['name'])) {
 			</div>
 		</header>
 
+
+		<section id="social">
+			<h1>Connect with Us</h1>
+			<div id="twitter-feed">
+				<a class="twitter-timeline" data-height="600" data-theme="dark" data-chrome="transparent noheader noborders" href="https://twitter.com/MyActivIngrednt?ref_src=twsrc%5Etfw">Follow Richard Sherman on Twitter RSherman_25</a>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</section>
+
+
+
+
+
 		
 
 
@@ -65,8 +78,8 @@ if (isset($_POST['name'])) {
 		<!-- CONTACT -->
 
 		<section class="contact-box" id="form">
-			<h1 class="hidden">Let's Keep In Touch</h1>
-			<h1 class="title ">Let's Keep In Touch</h1>
+			<h1 class="hidden">Contact Form</h1>
+			<h1 class="title ">We'd Like to Hear From You</h1>
 			<!-- like what you see? -->
 			<p class=" description" >Why not fill out the form below and say hello?</p>
 			<form  action="admin/scripts/insert.php" method="POST">

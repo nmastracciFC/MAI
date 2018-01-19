@@ -1,0 +1,27 @@
+#social {
+	clear: both;
+	background-color: #999;
+	text-align: center;
+	h1 {
+		padding: 1em 0;
+		font-family: $fontfamilythin;
+		font-size: 4em;
+		text-align: center;
+		display:block;
+		color: #555;
+
+	}
+	#twitter-feed {
+		// height: 700px;
+    width: 19em;
+    // max-width: 40em;
+    // overflow: auto;
+    margin: 0 auto;
+    @include large-up {
+    	width: 40em;
+    }
+	}
+	.twitter-timeline {
+		width: 20em;
+	}
+}
