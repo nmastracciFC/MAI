@@ -1,14 +1,14 @@
 <?php
-	// $user = "nmastrac_alexand";
-	// $pass = "PotatoTomato4$";
-	// $url = "gator4091.hostgator.com";
-	// $db = "nmastrac_db_nammie";
+	$user = "myact120_admin";
+	$pass = "activateIngredients4now";
+	$url = "69.90.160.255";
+	$db = "myact120_db_mai";
 	
 	
-	$url = "localhost";
-	$user = "root";
-	$pass = "root";
-	$db = "db_nammie";
+	// $url = "localhost";
+	// $user = "root";
+	// $pass = "root";
+	// $db = "db_mai";
 
 	$link = mysqli_connect($url, $user, $pass, $db); 
 

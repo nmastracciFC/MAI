@@ -10,13 +10,13 @@ function redirect_to($location){
 
 
 function submitMessage($name, $email, $message, $direct) {
-	$to = "nmastracci@gator4091.hostgator.com"; 
-	$subj = "Message from Portfolio Form"; 
+	$to = "admin@myactiveingredient.org"; 
+	$subj = "Message from MAI Form"; 
 	$extra = "Reply-To: ".$email; 
 	$msg = "name: ".$name."\n\nEmail: ".$email."\n\nComments: ".$message;
 	
 	mail($to, $subj, $msg, $extra); 
-	// $direct = $direct."?name={$name}";
+	$direct = $direct."?name={$name}";
 	redirect_to($direct);
 }
 
