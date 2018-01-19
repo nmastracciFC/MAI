@@ -1,6 +1,6 @@
 .title {
 	color: $maincolor;
-	font-family: $fontfamilythick;
+	font-family: $irisbold;
 	font-size: 41px;
 	margin-top: 70px;
 	margin-bottom:20px;
@@ -11,7 +11,7 @@
 }
 
 .description {
-	font-family: $fontfamilybody;
+	font-family: $irislight;
 	margin-bottom: 25px;
 	font-size: 14px;
 	color: #999999;
@@ -28,7 +28,7 @@
 	
 }
 .contact-label {
-	font-family: $fontfamilybody;
+	font-family: $irisbold;
 	color: $navcolor;
 	
 }
@@ -43,7 +43,7 @@
 	color: $maincolor;
 	display: block;
 	margin: 15px auto;
-	font-family: $fontfamilybody;
+	font-family: $irislight;
 }
 #name {
 	@extend #email;
@@ -62,7 +62,7 @@
   border-radius: 10px;
   background-color: $navcolor;
   color:#ffffff;
-  font-family: $fontfamilybody;
+  font-family: $irislight;
   font-size:15px;
   padding-top:10px;
   padding-bottom:10px;

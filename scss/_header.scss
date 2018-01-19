@@ -4,16 +4,24 @@
 	display:grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(12, 1fr);
-	background-image: url(../../images/logo_mai.jpg);
-	background-repeat: no-repeat;
-	background-position:top;
-
 	@include medium-up {
-		background-image: url(../../images/logo_mai.jpg);
 	}
 	@include large-up {
-		background-image: url(../../images/logo_mai.jpg);
-		background-position: center;
+		
+	}
+}
+#maiLogo{
+	width:11em;
+	margin-top:3.125em;
+	grid-column-start:5;
+	grid-column-end:9;
+	grid-row-start:1;
+	grid-row-end:3;
+	@include medium-up {
+		grid-column-start:6;
+		}
+	@include large-up {
+		grid-column-start:7;
 	}
 }
 #twitter {
@@ -46,8 +54,8 @@
 #heading {
 	grid-column-start:2;
 	grid-column-end:8;
-	grid-row-start:2;
-	grid-row-end:5;
+	grid-row-start:5;
+	grid-row-end:8;
 	
 	
 	color: #555;
@@ -56,14 +64,14 @@
 
 	}
 	@include large-up {
-		grid-row-start:1;
+		grid-row-start:5;
 	
 	
 	}
 
 	h1 {
 		font-size:2em;
-		font-family: $fontfamilythick;
+		font-family: $irisbold;
 		display:inline-block;
 		margin-top:0.3em;
 		margin-bottom: 0.3em;
@@ -80,7 +88,7 @@
 	h2 {
 		font-size:1.8em;
 		@include large-up {
-		font-family: $fontfamilybody;
+		font-family: $irislight;
 		font-size: 36px;
 		margin-bottom: 20px;
 		letter-spacing: 4.1px;
@@ -94,7 +102,7 @@
 
 		}
 		@include large-up {
-		font-family: $fontfamilybody;
+		font-family: $irislight;
 		font-size: 1.563em;
 		margin-bottom: 1em;
 	}
@@ -108,7 +116,7 @@
 		}
 
 		@include large-up {
-		font-family: $fontfamilybody;
+		font-family: $irislight;
 		font-size: 1.7em;
 		margin-bottom: 10px;
 		
@@ -141,37 +149,37 @@
 	}
 }
 #sub-head {
-	grid-column-start:9;
+	grid-column-start:2;
 	grid-column-end:12;
-	grid-row-start:3;
-	grid-row-end:10;
+	grid-row-start:9;
+	grid-row-end:13;
 	color: #555;
 	text-align: left;
 	@include medium-up {
-		grid-row-start:7;
+		grid-row-start:9;
 	}
 	@include large-up {
 		grid-column-start:9;
-
-		grid-row-start:4;
+		grid-column-end:13;
+		grid-row-start:7;
 	text-align: left;
 	}
 	h2{
 		font-size:1.5em;
-		font-family: $fontfamilythick;
+		font-family: $irisbold;
 		display:inline-block;
 		margin-bottom: 1em;
 		@include medium-up {
 			font-size: 2.3em;
 		}
 		@include large-up {
-		font-family: $fontfamilythick;
+		font-family: $irislight;
 		font-size: 2.8em;
 		margin-bottom: 1.3em;
 	}
 	}
 	h3{
-		font-family: $fontfamilybody;
+		font-family: $irislight;
 		margin-bottom: 1em;
 		@include medium-up {
 			font-size:1.3em;
@@ -187,7 +195,7 @@
 			font-size:1.3em;
 		}
 		@include large-up {
-		font-family: $fontfamilybody;
+		font-family: $irislight;
 		font-size: 1.5em;
 	}
 }

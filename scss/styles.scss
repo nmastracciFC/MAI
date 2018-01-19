@@ -73,14 +73,21 @@ footer {
 	} 
 } 
 .cright {
+	float: right;
 	display: inline-block;
 	text-align: right;
 	color: $navcolor;
-	padding-left:1.5em;
+	padding-right:1.5em;
 	padding-top:1.2em;
 	@include medium-up {
 		padding-top: 0;
 	}
+}
+#twitter {
+	float: right;
+	// vertical-align: bottom;
+	text-align: left;
+	padding-right: 0.5em;
 }
 .linkedIn {
 	float: right;

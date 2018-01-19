@@ -36,16 +36,11 @@ if (isset($_POST['name'])) {
 	<div id="container">	
 
 		<header  id="headerBack">
-			<div id="twitter">
-			<a  href="https://twitter.com/myactivingrednt" target="_blank"><img  src="images/social-twitter.png" alt="twitter logo"></a>
-			</div>
+			<img id="maiLogo" src="images/logo_mai.svg" alt="my active ingredient logo">
  			<div id="heading">
  				<h1>#MyActiveIngredient</h1>
  				<h3>Peer-to-peer healthcare and curated content on movement as medicine by @janesthornton. Building on #MakeYourDayHarder.</h3>
-				<!-- <h4 id="to-portfolio">Go to <strong>Portfolio &gt;</strong></h4>
-				<h4 id="to-contact" >Keep <strong>in Touch  &gt;</strong></h4> -->
 			</div>
-			<!-- <img id="eight" src="images/eight-nowhite.png" alt="eight rowing"> -->
 
 			<div id="sub-head">
 				<h2>Check Back Soon!</h2>
@@ -59,7 +54,7 @@ if (isset($_POST['name'])) {
 		<section id="social">
 			<h1>Connect with Us</h1>
 			<div id="twitter-feed">
-				<a class="twitter-timeline" data-height="600" data-theme="dark" data-chrome="transparent noheader noborders" href="https://twitter.com/MyActivIngrednt?ref_src=twsrc%5Etfw">Follow Richard Sherman on Twitter RSherman_25</a>
+				<a class="twitter-timeline" data-height="600" data-theme="dark" data-chrome="transparent noheader noborders" href="https://twitter.com/MyActivIngrednt?ref_src=twsrc%5Etfw"></a>
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 		</section>
@@ -103,16 +98,13 @@ if (isset($_POST['name'])) {
 
 		
 		<footer>
-			<ul class="footer-nav">
-				<!-- <li><a href="index.html">HOME</a></li> -->
-				<li><a id="navToPort2" href="#portfolio">PORTFOLIO</a></li>
-				<li><a id="navToForm2" href="#form">CONTACT</a></li>
-			</ul>
-			<h6 class="cright">© Natalie Mastracci 2017</h6>
-				<a href="https://www.instagram.com/nmastracci/" target="_blank"><img class="instagram" src="images/social-instagram.png" alt="instagram logo"></a>	
+			
+			
+					
 				
-				<a href="https://twitter.com/NMastracci" target="_blank"><img class="twitter" src="images/social-twitter.png" alt="twitter logo"></a>
-				<a href="https://www.linkedin.com/in/natalie-mastracci-b8772257/" target="_blank"><img class="linkedIn" src="images/social-linkedin.png" alt="linkedIn logo"></a>
+				<a id="twitter" href="https://twitter.com/myactivingrednt" target="_blank"><img  src="images/social-twitter.png" alt="twitter logo"></a>
+				<h6 class="cright">© My Active Ingredient 2018</h6>
+				
 				
 		</footer>
 	</div>
