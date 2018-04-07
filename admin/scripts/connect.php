@@ -1,14 +1,14 @@
 <?php
-	$user = "myact120_admin";
-	$pass = "activateIngredients4now";
-	$url = "hp213.hostpapa.com";
-	$db = "myact120_db_mai";
+	// $user = "myact120_admin";
+	// $pass = "activateIngredients4now";
+	// $url = "hp213.hostpapa.com";
+	// $db = "myact120_db_mai";
 	
 	
-	// $url = "localhost";
-	// $user = "root";
-	// $pass = "root";
-	// $db = "db_mai";
+	$url = "localhost";
+	$user = "root";
+	$pass = "root";
+	$db = "db_mai";
 
 	$link = mysqli_connect($url, $user, $pass, $db); 
 
