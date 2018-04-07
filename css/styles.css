@@ -1,0 +1,460 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* End Reset */
+@font-face {
+  font-family: 'mulilight';
+  src: url("../../fonts/muli-light-webfont.woff2") format("woff2"), url("../../fonts/muli-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'muliregular';
+  src: url("../../fonts/muli-webfont.woff2") format("woff2"), url("../../fonts/muli-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'iris_fontbold';
+  src: url("../../fonts/iris_font_bold-webfont.woff2") format("woff2"), url("../../fonts/iris_font_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'iris_fontlight';
+  src: url("../../fonts/iris_font_light-webfont.woff2") format("woff2"), url("../../fonts/iris_font_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'iris_fontregular';
+  src: url("../../fonts/iris_font_regular-webfont.woff2") format("woff2"), url("../../fonts/iris_font_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+#logo {
+  width: 3.125em;
+  margin: 1em 0 1em 1em; }
+  @media only screen and (min-width: 40em) {
+    #logo {
+      width: 6.25em;
+      margin: 2em 0 2em 2em;
+      transition: all 0.5s ease; }
+      #logo:hover {
+        opacity: 0.5; } }
+  @media only screen and (min-width: 60em) {
+    #logo {
+      margin: 1.6em 0 2em 2em; } }
+
+#logoText {
+  display: none; }
+
+#logoText:hover {
+  margin: 33px;
+  color: #555555; }
+
+.main-nav {
+  float: right;
+  display: none; }
+  @media only screen and (min-width: 40em) {
+    .main-nav {
+      display: inline-block;
+      margin-top: 3.938em; } }
+  .main-nav li {
+    display: inline;
+    margin-right: 6.25em; }
+    @media only screen and (min-width: 40em) {
+      .main-nav li {
+        transition: all 0.5s ease; }
+        .main-nav li:hover {
+          border-bottom: 1px solid #b0b0b4;
+          padding: 7px; } }
+  .main-nav a {
+    text-decoration: none;
+    font-family: "oswaldextralight";
+    font-size: 20px;
+    letter-spacing: 0.220em;
+    color: #b0b0b4;
+    transition: all 0.5s ease; }
+    .main-nav a:hover {
+      color: #6c4a6f;
+      cursor: pointer; }
+
+.social {
+  display: none; }
+  @media only screen and (min-width: 60em) {
+    .social {
+      display: inline-block;
+      float: right;
+      margin-top: 3em; } }
+
+.title {
+  color: #555555;
+  font-family: "iris_fontbold";
+  font-size: 41px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease; }
+  .title:hover {
+    color: #333366; }
+
+.description {
+  font-family: "iris_fontlight";
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #999999; }
+
+.contact-box {
+  margin: 0 auto;
+  width: 320px;
+  padding-top: 100px; }
+  @media only screen and (min-width: 40em) {
+    .contact-box {
+      padding-bottom: 100px; } }
+
+.contact-label {
+  font-family: "iris_fontbold";
+  color: #b0b0b4; }
+
+#email, #name, #message {
+  border-radius: 2.5em;
+  padding: 1em;
+  height: 2.5em;
+  border: solid 1px #ffffff;
+  background-color: #f0efef;
+  width: 300px;
+  color: #555555;
+  display: block;
+  margin: 15px auto;
+  font-family: "iris_fontlight"; }
+
+#message {
+  height: 150px; }
+
+#sendbutton {
+  width: 100px;
+  border: #ffffff solid 4px;
+  border-radius: 10px;
+  background-color: #b0b0b4;
+  color: #ffffff;
+  font-family: "iris_fontlight";
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -4px;
+  float: right;
+  transition: all 0.5s ease; }
+  #sendbutton:hover {
+    background-color: #333366;
+    color: #ffffff;
+    cursor: pointer; }
+
+#headerBack {
+  width: 100%;
+  height: 37.5em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr); }
+
+#maiLogo {
+  width: 11em;
+  margin-top: 3.125em;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3; }
+  @media only screen and (min-width: 40em) {
+    #maiLogo {
+      grid-column-start: 6; } }
+  @media only screen and (min-width: 60em) {
+    #maiLogo {
+      grid-column-start: 7; } }
+
+#twitter {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.stay-put {
+  position: absolute; }
+
+#eight {
+  width: 24em;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 8; }
+  @media only screen and (min-width: 40em) {
+    #eight {
+      width: 40em;
+      grid-column-start: 4; } }
+  @media only screen and (min-width: 60em) {
+    #eight {
+      width: 60em;
+      grid-column-start: 4;
+      grid-row-start: 6; } }
+
+#heading {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 8;
+  color: #555; }
+  @media only screen and (min-width: 40em) {
+    #heading {
+      grid-column-end: 7; } }
+  @media only screen and (min-width: 60em) {
+    #heading {
+      grid-row-start: 5; } }
+  #heading h1 {
+    font-size: 2em;
+    font-family: "iris_fontbold";
+    display: inline-block;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em; }
+    @media only screen and (min-width: 40em) {
+      #heading h1 {
+        font-size: 3em;
+        margin-bottom: 0.7em; } }
+    @media only screen and (min-width: 60em) {
+      #heading h1 {
+        font-size: 4.063em; } }
+  #heading h2 {
+    font-size: 1.8em; }
+    @media only screen and (min-width: 60em) {
+      #heading h2 {
+        font-family: "iris_fontlight";
+        font-size: 36px;
+        margin-bottom: 20px;
+        letter-spacing: 4.1px;
+        display: inline-block; } }
+  #heading h3 {
+    margin-bottom: 1.8em; }
+    @media only screen and (min-width: 40em) {
+      #heading h3 {
+        font-size: 1.3em; } }
+    @media only screen and (min-width: 60em) {
+      #heading h3 {
+        font-family: "iris_fontlight";
+        font-size: 1.563em;
+        margin-bottom: 1em; } }
+  #heading h4 {
+    margin-bottom: 1em; }
+    @media only screen and (min-width: 40em) {
+      #heading h4 {
+        font-size: 1.4em; } }
+    @media only screen and (min-width: 60em) {
+      #heading h4 {
+        font-family: "iris_fontlight";
+        font-size: 1.7em;
+        margin-bottom: 10px;
+        display: block; } }
+  #heading #to-portfolio {
+    cursor: pointer;
+    text-align: right; }
+    @media only screen and (min-width: 40em) {
+      #heading #to-portfolio {
+        transition: all 0.5s ease;
+        margin-bottom: 1em; }
+        #heading #to-portfolio:hover {
+          color: #000;
+          margin-left: 5px;
+          font-size: 1.75em; } }
+  #heading #to-contact {
+    text-align: right;
+    cursor: pointer; }
+    @media only screen and (min-width: 40em) {
+      #heading #to-contact {
+        transition: all 0.5s ease; }
+        #heading #to-contact:hover {
+          color: #000;
+          font-size: 1.75em; } }
+
+#sub-head {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 9;
+  grid-row-end: 13;
+  color: #555;
+  text-align: left; }
+  @media only screen and (min-width: 40em) {
+    #sub-head {
+      grid-row-start: 9; } }
+  @media only screen and (min-width: 60em) {
+    #sub-head {
+      grid-column-start: 9;
+      grid-column-end: 13;
+      grid-row-start: 7;
+      text-align: left; } }
+  #sub-head h2 {
+    font-size: 1.5em;
+    font-family: "iris_fontbold";
+    display: inline-block;
+    margin-bottom: 1em; }
+    @media only screen and (min-width: 40em) {
+      #sub-head h2 {
+        font-size: 2.3em; } }
+    @media only screen and (min-width: 60em) {
+      #sub-head h2 {
+        font-family: "iris_fontlight";
+        font-size: 2.8em;
+        margin-bottom: 1.3em; } }
+  #sub-head h3 {
+    font-family: "iris_fontlight";
+    margin-bottom: 1em; }
+    @media only screen and (min-width: 40em) {
+      #sub-head h3 {
+        font-size: 1.3em; } }
+    @media only screen and (min-width: 60em) {
+      #sub-head h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px; } }
+  @media only screen and (min-width: 40em) {
+    #sub-head h4 {
+      font-size: 1.3em; } }
+  @media only screen and (min-width: 60em) {
+    #sub-head h4 {
+      font-family: "iris_fontlight";
+      font-size: 1.5em; } }
+
+#social {
+  clear: both;
+  background-color: #999;
+  text-align: center; }
+  #social h1 {
+    padding: 1em 0;
+    font-family: "iris_fontbold";
+    font-size: 3em;
+    text-align: center;
+    display: block;
+    color: #555; }
+  #social #twitter-feed {
+    width: 19em;
+    margin: 0 auto; }
+    @media only screen and (min-width: 60em) {
+      #social #twitter-feed {
+        width: 40em; } }
+  #social .twitter-timeline {
+    width: 20em; }
+
+.hidden {
+  display: none; }
+
+body {
+  font-family: "mulilight";
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+#container {
+  width: 100%; }
+  @media only screen and (min-width: 40em) {
+    #container {
+      width: 100%; } }
+  @media only screen and (min-width: 60em) {
+    #container {
+      width: 100%; } }
+
+footer {
+  clear: both;
+  width: 100%;
+  height: 8em;
+  margin-top: 9em;
+  padding-bottom: 15px; }
+  @media only screen and (min-width: 40em) {
+    footer {
+      margin-top: 9em;
+      height: 3em; } }
+  @media only screen and (min-width: 60em) {
+    footer {
+      margin-top: 9em;
+      height: 4em; } }
+
+.footer-nav {
+  background-color: #fff;
+  padding: 25px;
+  display: block; }
+  @media only screen and (min-width: 40em) {
+    .footer-nav {
+      display: inline-block; } }
+  @media only screen and (min-width: 60em) {
+    .footer-nav {
+      display: inline-block; } }
+  .footer-nav li {
+    display: inline;
+    margin-right: 40px; }
+  .footer-nav a {
+    text-decoration: none;
+    font-family: "oswaldextralight";
+    font-size: 15px;
+    letter-spacing: 0.220em;
+    color: #b0b0b4; }
+
+.cright {
+  float: right;
+  display: inline-block;
+  text-align: right;
+  color: #b0b0b4;
+  padding-right: 1.5em;
+  padding-top: 1.2em; }
+  @media only screen and (min-width: 40em) {
+    .cright {
+      padding-top: 0; } }
+
+#twitter {
+  float: right;
+  text-align: left;
+  padding-right: 0.5em; }
+
+.linkedIn, .twitter, .instagram {
+  float: right;
+  vertical-align: bottom;
+  text-align: left;
+  padding-right: 0.5em; }
+
+.instagram {
+  padding-right: 1.5em; }

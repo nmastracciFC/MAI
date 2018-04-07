@@ -4,10 +4,7 @@ function redirect_to($location){
 		header("Location: {$location}");
 		exit;
 	}
-
 }
-
-
 
 function submitMessage($name, $email, $message, $direct) {
 	$to = "329243@hp213.hostpapa.com"; 
